@@ -1,0 +1,11 @@
+Student Name:name0 and Student grade :21
+Student Name:name1 and Student grade :45
+Student Name:name2 and Student grade :21
+Student Name:name3 and Student grade :72
+Student Name:name4 and Student grade :95
+Student Name:name5 and Student grade :16
+Student Name:name6 and Student grade :42
+Student Name:name7 and Student grade :52
+Student Name:name8 and Student grade :75
+Student Name:name9 and Student grade :97
+Average of roster is :53.6
