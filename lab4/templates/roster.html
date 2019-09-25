@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Student Roster </title>
+    </head>
+    <body>
+    <h2>The students in the view {{view}} are:</h2>
+    {% if view == 1 %}
+    <u1>
+        {% for student in class_roster %}
+        <li> {{ student.name}}:  {{student.grade}} </li>
+        {% endfor %}
+    </u1>
+    {% endif %}
+    {% if view == 2 %}
+    <u2>
+       {% for student in class_roster %}
+        <li> {{ student.name}}:  {{student.year}} </li>
+        {% endfor %}
+    </u2>
+    {% endif %}
+    {% if view == 0 %}
+    <u3>
+       {% for student in class_roster %}
+        <li> {{ student.name}}: {{student.grade}}:  {{student.year}} </li>
+        {% endfor %}
+    </u3>
+    {% endif %}
+    </body>
+</html>
